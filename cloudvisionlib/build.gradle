@@ -2,6 +2,7 @@
 buildscript {
     repositories {
         mavenCentral()
+        maven { url "https://jitpack.io" }
     }
 
     dependencies {
@@ -53,4 +54,4 @@ dependencies {
 
 // bintray upload specific gradle file that won't be included in repo - feel free to comment out
 // if cloning this repository
-apply from: 'upload.gradle'
+//apply from: 'upload.gradle'
